@@ -1,0 +1,13 @@
+{
+  "description": "perfectionist-test",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yisibl/perfectionist-test.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-postcss": "^5.1.10",
+    "perfectionist": "^1.2.0",
+    "autoprefixer-core": "^5.1.8"
+  }
+}

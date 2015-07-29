@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+*.swp
+*.swo
+.idea/
+*.iml
+npm-debug.log
+*.sublime-workspace

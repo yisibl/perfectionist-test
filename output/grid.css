@@ -1,0 +1,30 @@
+#grid {
+    display: grid; /* The rows, columns and areas of the grid are defined visually
+  * using the grid-template-areas property.  Each string is a row,
+  * and each word an area.  The number of words in a string
+  * determines the number of columns. Note the number of words
+  * in each string must be identical. */
+    grid-template-areas: "title stats"
+                       "score stats"
+                       "board board"
+                       "ctrls ctrls"; /* Columns and rows created with the template property can be
+  * assigned a sizing function with the grid-template-columns
+  * and grid-template-rows properties. */
+    grid-template-columns: auto minmax(min-content, 1fr);
+    grid-template-rows: auto auto minmax(min-content, 1fr) auto;
+}
+
+.foo {
+    grid-template-areas: ". a"
+                     "b a"
+                     ". a";
+    grid-template-areas: "head head"
+                       "nav  main"
+                       "foot ....";
+}
+
+.bar {
+    grid-template: auto 1fr auto /
+                [header-top] "a   a   a"     [header-bottom]
+                  [main-top] "b   b   b" 1fr [main-bottom];
+}

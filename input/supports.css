@@ -1,0 +1,7 @@
+@supports not (display: flex) {
+  div { float: left; /* alternative styles */ }
+}
+
+@supports (perspective: 10px) {
+    /* specific CSS applied when 3D transforms, eventually prefixed, are supported */
+}

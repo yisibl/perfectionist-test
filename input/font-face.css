@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Bitstream Vera Serif Bold";
+  src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+  src: local(a), /* comment */
+       local(b), /* comment */
+       url(c.ttf); /* comment */
+  font-weight: bold;
+}
+
+body {
+  font-family: "Bitstream Vera Serif Bold", serif;
+}
+
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1428998095_2751799.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1428998095_2751799.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('//at.alicdn.com/t/font_1428998095_2751799.woff') format('woff'), /* chrome、firefox */
+       url('//at.alicdn.com/t/font_1428998095_2751799.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+       url('//at.alicdn.com/t/font_1428998095_2751799.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
