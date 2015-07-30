@@ -13,4 +13,14 @@
     max-zoom: 0.9;
 }@viewport {
     orientation: landscape;
+}@media screen and (width: 397px) {
+    @-ms-viewport {
+        width: 500px;
+    }
+    @-o-viewport {
+        width: 500px;
+    }
+    @viewport {
+        width: 500px;
+    }
 }

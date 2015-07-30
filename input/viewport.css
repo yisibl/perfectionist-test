@@ -12,3 +12,9 @@
 @viewport {
   orientation: landscape;
 }
+
+@media screen and (width: 397px) {
+    @viewport {
+        width: 500px;
+    }
+}
