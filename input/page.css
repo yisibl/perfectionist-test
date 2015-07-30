@@ -1,0 +1,30 @@
+@page {
+  size: 15cm 10cm;
+  margin: 1.5cm;
+
+  @top-left {
+    content: "first: " string(heading, first);
+  }
+
+  @top-center {
+    content: "start: " string(heading, start);
+  }
+
+  @top-right {
+    content: "last: " string(heading, last);
+  }
+}
+
+h2 {
+  string-set: heading content()
+}
+
+@page {
+  @top {
+    content: element(header);
+  }
+}
+
+@footnote {
+  float: bottom;
+}
