@@ -28,3 +28,13 @@ h2 {
 @footnote {
   float: bottom;
 }
+
+
+@page :blank {
+  @top-center { content: none }
+}
+
+@page :right {
+  @top-center { content: "Preliminary edition" }
+  @bottom-center { content: counter(page) }
+}
