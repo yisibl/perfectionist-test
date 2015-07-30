@@ -40,6 +40,7 @@ body {
     flow-from: related-flow;
     width: 40%;
     height: 90%;
-    padding: 5% float: left;
+    padding: 5%;
+    float: left;
   }
 }
