@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer-core')
 var perfectionist = require('perfectionist')
+var cssfmt = require('cssfmt')
 
 var perfectionistOptions = {
   maxValueLength: 90
@@ -27,4 +28,12 @@ gulp.task('perfectionist', function() {
     .pipe(gulp.dest('output/'))
 })
 
-gulp.watch('src/*.css', ['default'])
+gulp.task('cssfmt', function() {
+  return gulp.src('input/*.css')
+    .pipe(postcss([
+      cssfmt()
+    ]))
+    .pipe(gulp.dest('cssfmt/'))
+})
+
+gulp.watch('input/*.css', ['default', 'cssfmt'])
