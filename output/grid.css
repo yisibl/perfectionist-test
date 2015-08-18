@@ -1,5 +1,6 @@
 #grid {
-    display: grid; /* The rows, columns and areas of the grid are defined visually
+    display: grid;
+    /* The rows, columns and areas of the grid are defined visually
   * using the grid-template-areas property.  Each string is a row,
   * and each word an area.  The number of words in a string
   * determines the number of columns. Note the number of words
@@ -7,7 +8,8 @@
     grid-template-areas: "title stats"
                        "score stats"
                        "board board"
-                       "ctrls ctrls"; /* Columns and rows created with the template property can be
+                       "ctrls ctrls";
+    /* Columns and rows created with the template property can be
   * assigned a sizing function with the grid-template-columns
   * and grid-template-rows properties. */
     grid-template-columns: auto minmax(min-content, 1fr);
