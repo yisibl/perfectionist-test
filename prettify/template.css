@@ -1,0 +1,46 @@
+/* https://drafts.csswg.org/css-page-template/ */
+
+body {
+  overflow-style: paged-x;
+}
+
+.lead-story {
+  flow-into: lead-flow;
+}
+
+.related-article {
+  flow-into: related-flow;
+}
+
+@template related {
+  required-flow: related-flow;
+  @slot content {
+    flow-from: related-flow;
+    column-width: 20em;
+  }
+}
+
+@template lead {
+  required-flow: lead-flow;
+  @slot content {
+    flow-from: lead-flow;
+    column-width: 20em;
+  }
+}
+
+@template continued-on:first {
+  @slot lead {
+    flow-from: lead-flow;
+    width: 40%;
+    height: 90%;
+    padding: 5%;
+    float: left;
+  }
+  @slot related {
+    flow-from: related-flow;
+    width: 40%;
+    height: 90%;
+    padding: 5%;
+    float: left;
+  }
+}

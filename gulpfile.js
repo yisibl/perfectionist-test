@@ -3,6 +3,8 @@ var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer-core')
 var perfectionist = require('perfectionist')
 var cssfmt = require('cssfmt')
+  //npm  install js-beautify
+var prettify = require('gulp-jsbeautifier');
 
 var perfectionistOptions = {
   maxValueLength: 90
@@ -36,4 +38,14 @@ gulp.task('cssfmt', function() {
     .pipe(gulp.dest('cssfmt/'))
 })
 
-gulp.watch('input/*.css', ['default', 'cssfmt'])
+gulp.task('prettify', function() {
+  return gulp.src('input/*.css')
+    .pipe(prettify({
+      indent_size: 2,
+      selector_separator_newline: false,
+      // newline_between_rules: false
+    }))
+    .pipe(gulp.dest('prettify/'));
+});
+
+gulp.watch('input/*.css', ['default', 'cssfmt', 'prettify'])

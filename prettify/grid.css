@@ -1,0 +1,33 @@
+#grid {
+  display: grid;
+  /* The rows, columns and areas of the grid are defined visually
+  * using the grid-template-areas property.  Each string is a row,
+  * and each word an area.  The number of words in a string
+  * determines the number of columns. Note the number of words
+  * in each string must be identical. */
+  grid-template-areas: "title stats" "score stats" "board board" "ctrls ctrls";
+  /* Columns and rows created with the template property can be
+  * assigned a sizing function with the grid-template-columns
+  * and grid-template-rows properties. */
+  grid-template-columns: auto minmax(min-content, 1fr);
+  grid-template-rows: auto auto minmax(min-content, 1fr) auto;
+}
+
+.foo {
+  grid-template-areas: ". a" "b a" ". a";
+  grid-template-areas: "head head" "nav  main" "foot ....";
+}
+
+.bar {
+  grid-template: auto 1fr auto / [header-top] "a   a   a" [header-bottom] [main-top] "b   b   b" 1fr [main-bottom];
+}
+
+div {
+  grid: "@ @ . . f f . . . ." 3.6em ". a a . . g g . . ." 3.6em ". . b b . . h h . ." 3.6em ". . . c c . . i i ." 3.6em ". . . . d d . . j j" 3.6em ". . . . . . . . . ." 0.6em "e e e e . . k k k k" auto;
+  chains: @ a b c d e, f g h i j k;
+}
+
+@page :first {
+  grid: * 3em * 3em * 3em * 3em * "A  A  A  A  A  A  A  A  A" 5cm ".  .  .  .  .  .  .  .  ." 0.25cm "B  .  C  C  C  C  C  C  C" * "B  .  C  C  C  C  C  C  C" * "B  .  C  C  C  C  C  C  C" * "B  .  C  C  C  C  C  C  C" * "B  .  C  C  C  C  C  C  C" * "B  .  D  D  D  D  D  D  D" * "B  .  D  D  D  D  D  D  D" * "B  .  E  E  E  .  F  F  F" * "B  .  E  E  E  .  F  F  F" * "B  .  E  E  E  .  F  F  F" *;
+  chains: a b;
+}
