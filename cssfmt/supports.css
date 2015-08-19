@@ -8,11 +8,11 @@
 }
 
 
-@supports  (perspective: 10px) {/* specific CSS applied when 3D transforms, eventually prefixed, are supported */
+@supports (perspective: 10px) {/* specific CSS applied when 3D transforms, eventually prefixed, are supported */
 }
 
 
-@supports  (font-variant-position: super) {
+@supports (font-variant-position: super) {
   ::footnote-call {
     content: counter(footnote);
     vertical-align: baseline;

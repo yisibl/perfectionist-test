@@ -1,13 +1,10 @@
 @font-feature-values Font Two {/* How to activate nice-style in Font Two */
-
-
-@styleset  {
+  @styleset  {
     nice-style: 4;
-}
+  }
 
-
-@swash  {
+  @swash  {
     ident: 1;
     another_ident: 2;
-}
+  }
 }

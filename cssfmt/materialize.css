@@ -3537,8 +3537,6 @@ ul.staggered-list li {
 /*********************
   Media Query Classes
 **********************/
-
-
 @media only screen and (max-width: 600px) {
   .hide-on-small-only,
   .hide-on-small-and-down {
@@ -12561,7 +12559,7 @@ select {
 }
 
 
-@media  (min-height: 28.875em) {
+@media (min-height: 28.875em) {
   .picker__frame {
     overflow: visible;
     top: auto;
@@ -12571,7 +12569,7 @@ select {
 }
 
 
-@media  (min-height: 40.125em) {
+@media (min-height: 40.125em) {
   .picker__frame {
     margin-bottom: 7.5%;
   }
@@ -12588,7 +12586,7 @@ select {
 }
 
 
-@media  (min-height: 28.875em) {
+@media (min-height: 28.875em) {
   .picker__wrap {
     display: block;
   }
@@ -12605,7 +12603,7 @@ select {
 }
 
 
-@media  (min-height: 28.875em) {
+@media (min-height: 28.875em) {
   .picker__box {
     display: block;
     border: 1px solid #777777;
@@ -12645,7 +12643,7 @@ select {
 }
 
 
-@media  (min-height: 35.875em) {
+@media (min-height: 35.875em) {
   .picker--opened .picker__frame {
     top: 10%;
     bottom: 20% auto;
@@ -12672,7 +12670,7 @@ select {
 }
 
 
-@media  (min-height: 38.875em) {
+@media (min-height: 38.875em) {
   .picker--opened .picker__frame {
     top: 10%;
     bottom: auto;
@@ -12825,7 +12823,7 @@ select {
 }
 
 
-@media  (min-height: 33.875em) {
+@media (min-height: 33.875em) {
   .picker__weekday {
     padding-bottom: .5em;
   }
@@ -13194,7 +13192,7 @@ button.picker__close:focus {
 }
 
 
-@media  (min-height: 46.75em) {
+@media (min-height: 46.75em) {
   .picker__list-item {
     padding: .5em 1em;
   }
@@ -13317,7 +13315,7 @@ button.picker__close:focus {
 }
 
 
-@media  (min-height: 40.125em) {
+@media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em;
   }

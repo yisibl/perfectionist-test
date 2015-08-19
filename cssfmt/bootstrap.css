@@ -271,8 +271,6 @@ th {
 
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
-
-
 @media print {
   *,
   *:before,
@@ -1988,7 +1986,7 @@ p {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .lead {
     font-size: 21px;
   }
@@ -2228,7 +2226,7 @@ dd {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -2403,21 +2401,21 @@ pre code {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .container {
     width: 750px;
   }
 }
 
 
-@media  (min-width: 992px) {
+@media (min-width: 992px) {
   .container {
     width: 970px;
   }
 }
 
 
-@media  (min-width: 1200px) {
+@media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
@@ -2764,7 +2762,7 @@ pre code {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .col-sm-1,
   .col-sm-2,
   .col-sm-3,
@@ -2986,7 +2984,7 @@ pre code {
 }
 
 
-@media  (min-width: 992px) {
+@media (min-width: 992px) {
   .col-md-1,
   .col-md-2,
   .col-md-3,
@@ -3208,7 +3206,7 @@ pre code {
 }
 
 
-@media  (min-width: 1200px) {
+@media (min-width: 1200px) {
   .col-lg-1,
   .col-lg-2,
   .col-lg-3,
@@ -4301,7 +4299,7 @@ select[multiple].input-lg {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .form-inline .form-group {
     display: inline-block;
     margin-bottom: 0;
@@ -4385,7 +4383,7 @@ select[multiple].input-lg {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .form-horizontal .control-label {
     padding-top: 7px;
     margin-bottom: 0;
@@ -4399,7 +4397,7 @@ select[multiple].input-lg {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .form-horizontal .form-group-lg .control-label {
     padding-top: 14.333333px;
     font-size: 18px;
@@ -4407,7 +4405,7 @@ select[multiple].input-lg {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
     font-size: 12px;
@@ -5286,7 +5284,7 @@ tbody.collapse.in {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
@@ -5869,7 +5867,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .nav-tabs.nav-justified > li {
     display: table-cell;
     width: 1%;
@@ -5894,7 +5892,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #ddd;
     border-radius: 4px 4px 0 0;
@@ -5964,7 +5962,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .nav-justified > li {
     display: table-cell;
     width: 1%;
@@ -5994,7 +5992,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .nav-tabs-justified > li > a {
     border-bottom: 1px solid #ddd;
     border-radius: 4px 4px 0 0;
@@ -6033,14 +6031,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
   }
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-header {
     float: left;
   }
@@ -6063,7 +6061,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -6097,7 +6095,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (max-device-width: 480px)and (orientation: landscape) {
+@media (max-device-width: 480px)and (orientation: landscape) {
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
@@ -6114,7 +6112,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
@@ -6131,7 +6129,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-static-top {
     border-radius: 0;
   }
@@ -6147,7 +6145,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
@@ -6188,7 +6186,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
@@ -6228,7 +6226,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-toggle {
     display: none;
   }
@@ -6247,7 +6245,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -6275,7 +6273,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-nav {
     float: left;
     margin: 0;
@@ -6305,7 +6303,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-form .form-group {
     display: inline-block;
     margin-bottom: 0;
@@ -6367,7 +6365,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
@@ -6378,7 +6376,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-form {
     width: auto;
     padding-top: 0;
@@ -6432,7 +6430,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-text {
     float: left;
     margin-right: 15px;
@@ -6441,7 +6439,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-left {
     float: left !important;
   }
@@ -6538,7 +6536,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
   }
@@ -6675,7 +6673,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #080808;
   }
@@ -8507,7 +8505,7 @@ button.close {
 }
 
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
@@ -8524,7 +8522,7 @@ button.close {
 }
 
 
-@media  (min-width: 992px) {
+@media (min-width: 992px) {
   .modal-lg {
     width: 900px;
   }
@@ -9266,7 +9264,7 @@ button.close {
 }
 
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
   .visible-xs {
     display: block !important;
   }
@@ -9286,28 +9284,28 @@ button.close {
 }
 
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
   .visible-xs-block {
     display: block !important;
   }
 }
 
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
   .visible-xs-inline {
     display: inline !important;
   }
 }
 
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
   .visible-xs-inline-block {
     display: inline-block !important;
   }
 }
 
 
-@media  (min-width: 768px)and (max-width: 991px) {
+@media (min-width: 768px)and (max-width: 991px) {
   .visible-sm {
     display: block !important;
   }
@@ -9327,28 +9325,28 @@ button.close {
 }
 
 
-@media  (min-width: 768px)and (max-width: 991px) {
+@media (min-width: 768px)and (max-width: 991px) {
   .visible-sm-block {
     display: block !important;
   }
 }
 
 
-@media  (min-width: 768px)and (max-width: 991px) {
+@media (min-width: 768px)and (max-width: 991px) {
   .visible-sm-inline {
     display: inline !important;
   }
 }
 
 
-@media  (min-width: 768px)and (max-width: 991px) {
+@media (min-width: 768px)and (max-width: 991px) {
   .visible-sm-inline-block {
     display: inline-block !important;
   }
 }
 
 
-@media  (min-width: 992px)and (max-width: 1199px) {
+@media (min-width: 992px)and (max-width: 1199px) {
   .visible-md {
     display: block !important;
   }
@@ -9368,28 +9366,28 @@ button.close {
 }
 
 
-@media  (min-width: 992px)and (max-width: 1199px) {
+@media (min-width: 992px)and (max-width: 1199px) {
   .visible-md-block {
     display: block !important;
   }
 }
 
 
-@media  (min-width: 992px)and (max-width: 1199px) {
+@media (min-width: 992px)and (max-width: 1199px) {
   .visible-md-inline {
     display: inline !important;
   }
 }
 
 
-@media  (min-width: 992px)and (max-width: 1199px) {
+@media (min-width: 992px)and (max-width: 1199px) {
   .visible-md-inline-block {
     display: inline-block !important;
   }
 }
 
 
-@media  (min-width: 1200px) {
+@media (min-width: 1200px) {
   .visible-lg {
     display: block !important;
   }
@@ -9409,49 +9407,49 @@ button.close {
 }
 
 
-@media  (min-width: 1200px) {
+@media (min-width: 1200px) {
   .visible-lg-block {
     display: block !important;
   }
 }
 
 
-@media  (min-width: 1200px) {
+@media (min-width: 1200px) {
   .visible-lg-inline {
     display: inline !important;
   }
 }
 
 
-@media  (min-width: 1200px) {
+@media (min-width: 1200px) {
   .visible-lg-inline-block {
     display: inline-block !important;
   }
 }
 
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
   .hidden-xs {
     display: none !important;
   }
 }
 
 
-@media  (min-width: 768px)and (max-width: 991px) {
+@media (min-width: 768px)and (max-width: 991px) {
   .hidden-sm {
     display: none !important;
   }
 }
 
 
-@media  (min-width: 992px)and (max-width: 1199px) {
+@media (min-width: 992px)and (max-width: 1199px) {
   .hidden-md {
     display: none !important;
   }
 }
 
 
-@media  (min-width: 1200px) {
+@media (min-width: 1200px) {
   .hidden-lg {
     display: none !important;
   }

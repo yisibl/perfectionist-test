@@ -154,8 +154,6 @@ https://github.com/daneden/animate.css/blob/master/animate.css
 
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
@@ -477,8 +475,6 @@ https://github.com/daneden/animate.css/blob/master/animate.css
 
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
 @-webkit-keyframes wobble {
   0% {
     -webkit-transform: none;
@@ -2844,8 +2840,6 @@ https://github.com/daneden/animate.css/blob/master/animate.css
 
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
 @-webkit-keyframes rollIn {
   0% {
     opacity: 0;
@@ -2883,8 +2877,6 @@ https://github.com/daneden/animate.css/blob/master/animate.css
 
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
 @-webkit-keyframes rollOut {
   0% {
     opacity: 1;

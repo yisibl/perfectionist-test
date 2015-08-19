@@ -2,20 +2,17 @@
   size: 15cm 10cm;
   margin: 1.5cm;
 
-
-@top-left  {
+  @top-left  {
     content: "first: " string(heading, first);
-}
+  }
 
-
-@top-center  {
+  @top-center  {
     content: "start: " string(heading, start);
-}
+  }
 
-
-@top-right  {
+  @top-right  {
     content: "last: " string(heading, last);
-}
+  }
 }
 
 
@@ -24,9 +21,10 @@ h2 {
 }
 
 
-@page  {@top  {
+@page  {
+  @top  {
     content: element(header);
-}
+  }
 }
 
 
@@ -35,15 +33,16 @@ h2 {
 }
 
 
-@page : blank {@top-center  { content: none;
-}
-}
-
-
-@page : right {@top-center  { content: "Preliminary edition";
+@page : blank {
+  @top-center  { content: none;
+  }
 }
 
 
-@bottom-center  { content: counter(page);
-}
+@page : right {
+  @top-center  { content: "Preliminary edition";
+  }
+
+  @bottom-center  { content: counter(page);
+  }
 }
