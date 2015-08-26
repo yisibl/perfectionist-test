@@ -14,16 +14,12 @@ body {
     required-flow: related-flow;
     @slot content {
         flow-from: related-flow;
-        -webkit-column-width: 20em;
-        -moz-column-width: 20em;
         column-width: 20em;
     }
 }@template lead {
     required-flow: lead-flow;
     @slot content {
         flow-from: lead-flow;
-        -webkit-column-width: 20em;
-        -moz-column-width: 20em;
         column-width: 20em;
     }
 }@template continued-on:first {
