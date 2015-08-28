@@ -6,7 +6,8 @@ var perfectionist = require('perfectionist')
 var autoprefixer  = require('autoprefixer-core')
 
 var perfectionistOptions = {
-  maxValueLength: 90
+  maxValueLength: 90,
+  indentSize: 2
 }
 
 var browserOptions = ["> 0%"]

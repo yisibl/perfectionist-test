@@ -1,22 +1,28 @@
 @counter-style winners-list {
-    system: fixed;
-    symbols: url(gold-medal.svg) url(silver-medal.svg) url(bronze-medal.svg);
-    suffix: " ";
-}@counter-style circled-alpha {
-    system: fixed;
-    symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ
+  system: fixed;
+  symbols: url(gold-medal.svg) url(silver-medal.svg) url(bronze-medal.svg);
+  suffix: " ";
+}
+
+@counter-style circled-alpha {
+  system: fixed;
+  symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ
            Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ;
-    suffix: " ";
-}@counter-style cs-alphabetic {
-    system: alphabetic;
-    symbols: A '1' '\24B7' url('firefox.svg');
-    suffix: " ";
-}@counter-style upper-alpha-legal {
-    system: symbolic;
-    symbols: A B C D E F G H I J K L M
+  suffix: " ";
+}
+
+@counter-style cs-alphabetic {
+  system: alphabetic;
+  symbols: A '1' '\24B7' url('firefox.svg');
+  suffix: " ";
+}
+
+@counter-style upper-alpha-legal {
+  system: symbolic;
+  symbols: A B C D E F G H I J K L M
            N O P Q R S T U V W X Y Z;
 }
 
 ul {
-    list-style: cs-alphabetic;
+  list-style: cs-alphabetic;
 }

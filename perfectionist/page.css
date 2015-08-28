@@ -1,34 +1,46 @@
 @page {
-    size: 15cm 10cm;
-    margin: 1.5cm;
-    @top-left {
-        content: "first: " string(heading, first);
-    }
-    @top-center {
-        content: "start: " string(heading, start);
-    }
-    @top-right {
-        content: "last: " string(heading, last);
-    }
+  size: 15cm 10cm;
+  margin: 1.5cm;
+
+  @top-left {
+    content: "first: " string(heading, first);
+  }
+
+  @top-center {
+    content: "start: " string(heading, start);
+  }
+
+  @top-right {
+    content: "last: " string(heading, last);
+  }
 }
 
 h2 {
-    string-set: heading content();
-}@page {
-    @top {
-        content: element(header);
-    }
-}@footnote {
-    float: bottom;
-}@page :blank {
-    @top-center {
-        content: none;
-    }
-}@page :right {
-    @top-center {
-        content: "Preliminary edition";
-    }
-    @bottom-center {
-        content: counter(page);
-    }
+  string-set: heading content();
+}
+
+@page {
+  @top {
+    content: element(header);
+  }
+}
+
+@footnote {
+  float: bottom;
+}
+
+@page :blank {
+  @top-center {
+    content: none;
+  }
+}
+
+@page :right {
+  @top-center {
+    content: "Preliminary edition";
+  }
+
+  @bottom-center {
+    content: counter(page);
+  }
 }
