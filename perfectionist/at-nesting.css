@@ -1,0 +1,46 @@
+/* comment */
+
+@media (min-width: 992px) {
+  @media (max-width: 1200px) {
+    @foo (max-width: 1200px) {
+      .container {
+        position: absolute;
+      }
+    }
+
+    .container {
+      position: absolute;
+    }
+  }
+}
+
+/* 4 nesting */
+
+@foo some {
+  @bar {
+    @baz {
+      @media {
+        display: block;
+      }
+    }
+  }
+}
+
+@foo some {/* comment */
+
+  @bar {/* comment */
+
+    @baz {/* comment */
+
+      @media {/* comment */
+        display: block; /* comment */
+      }
+    }
+  }
+}
+
+@media {/* empty at rule */
+}
+
+.foo {/* empty at rule */
+}

@@ -1,0 +1,39 @@
+@media  {/* empty at rule */
+}
+
+
+.foo {/* empty */
+}
+
+
+/* empty */
+.foo {
+  position: absolute;
+}
+
+
+.bar {/* empty */
+  display: block;
+}
+
+
+.bar {
+  display: ;
+}
+
+
+@font-face  {
+  display: block;
+}
+
+
+/* empty */
+@font-face  {
+  display: block;
+}
+
+
+@media (/* empty */) {
+  display: block;
+}
+
